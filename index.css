@@ -46,6 +46,10 @@ nav {
     color: black;
 }
 
+img {
+    max-width: 400px;
+}
+
 .row {
     display: flex;
     flex-direction: row;
@@ -60,9 +64,16 @@ nav {
     border-radius: 2%;
     margin: 3% auto;
     padding: 2% 2%;
-    opacity: .85;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     max-width: 450px;
+}
+
+.beliefsItem {
+    flex: 1;
+}
+
+.about div.item img {
+    opacity: 1;
 }
 
 .beliefs {

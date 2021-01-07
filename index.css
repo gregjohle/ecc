@@ -171,6 +171,10 @@ footer {
     align-items: center;
 }
 
+.address {
+    text-align: center;
+}
+
 nav a {
     text-decoration: none;
     padding-right: 3%;
@@ -194,4 +198,24 @@ footer a:hover {
 nav a:active,
 footer a:active {
     color: rgb(189, 193, 255)
+}
+
+@media all and (max-width: 1200px) {
+    header {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .row {
+        flex-direction: column;
+    }
+    .giving {
+        flex-direction: column;
+    }
+    .givingBtn {
+        padding-bottom: 2%;
+    }
+    footer {
+        flex-direction: column;
+        justify-content: center;
+    }
 }

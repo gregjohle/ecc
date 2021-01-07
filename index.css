@@ -221,4 +221,7 @@ footer a:active {
     h1 {
         font-size: larger;
     }
+    img {
+        width: auto;
+    }
 }

@@ -218,4 +218,7 @@ footer a:active {
         flex-direction: column;
         justify-content: center;
     }
+    h1 {
+        font-size: larger;
+    }
 }

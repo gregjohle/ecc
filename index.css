@@ -49,6 +49,12 @@ nav {
     margin: 3% auto;
     padding: 2% 2%;
     border-radius: 2%;
+    text-align: center;
+}
+
+.floater p {
+    max-width: 20em;
+    margin: 0 auto;
 }
 
 img {
